@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1367207659668458}
+  m_IsPrefabParent: 1
+--- !u!1 &1367207659668458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4104098530532822}
+  - component: {fileID: 114512047386198088}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4104098530532822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367207659668458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114512047386198088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367207659668458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2f2f99d06f1f04c995ba259d7b632a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableBlocks:
+  - {fileID: 1625837869287974, guid: 6a3c6c3e1c1623842869da650778430a, type: 2}
+  - {fileID: 1236782419423046, guid: a514ec2c6ba555d48995bdf7194ca47e, type: 2}
+  - {fileID: 1009096622092250, guid: f6fa88cb2315975489ff511e2ca977f5, type: 2}
+  - {fileID: 1572352664097076, guid: cba0ab6fb99242e428820e9de7e37385, type: 2}
+  - {fileID: 1569550795727020, guid: 8b950b0a9dadeb846a9461bf405a0fb7, type: 2}
+  - {fileID: 1460588517829994, guid: 3840a5f98f2ac4c408c727826d9c73d5, type: 2}
+  - {fileID: 1767142973907054, guid: 90e639e1c3f41c94db86fa624db3f4aa, type: 2}
+  nextBlock: {fileID: 0}
+  nextBlock_HUD: {fileID: 0}
